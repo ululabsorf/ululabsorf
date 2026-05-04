@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Ulul Absor - Freelance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f5f7fa;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: #007bff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(135deg, #007bff, #00c6ff);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            animation: fadeIn 2s;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        /* CONTAINER */
+        .container {
+            padding: 30px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        /* CARD */
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        /* BUTTON */
+        .btn {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        /* ANIMATION */
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Layanan</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<header>
+    <h1>Ulul Absor Febiyono</h1>
+    <p>Jasa Word & Website Profesional</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Tentang Saya</h2>
+        <p>Saya menyediakan jasa pengolahan dokumen Word dan pembuatan website dengan hasil rapi, cepat, dan profesional.</p>
+    </div>
+
+    <div class="card">
+        <h2>Layanan</h2>
+        <ul>
+            <li>Jasa ketik & rapikan dokumen</li>
+            <li>Pembuatan CV profesional</li>
+            <li>Pembuatan website sederhana</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Kontak</h2>
+        <p>WhatsApp: 085602558423</p>
+        <a class="btn" href="https://wa.me/6285602558423">Chat Sekarang</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Ulul Absor</p>
+</footer>
+
+</body>
+</html>
